@@ -3,7 +3,9 @@ import java.util.Scanner;
 public class Data {
     static Scanner scanner = new Scanner(System.in);
 
+
     public static void amount() {
+        System.out.println("Hello Rafia");
         System.out.println("1. Enter the amount to buy:");
         System.out.println("00. Go Back");
         String enterAmount = scanner.nextLine();
@@ -15,8 +17,13 @@ public class Data {
             case "00":
                 Airtime.airtimeAndData();
                 break;
+
+
         }
     }
+
+
+
 
     public static void recepientNumber() {
         System.out.println("1. Enter the recipient number :");
