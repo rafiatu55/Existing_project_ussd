@@ -6,6 +6,7 @@ public class Data {
 
     public static void amount() {
         System.out.println("Hello Rafia");
+        System.out.println("Hello Mawuli");
         System.out.println("1. Enter the amount to buy:");
         System.out.println("00. Go Back");
         String enterAmount = scanner.nextLine();
